@@ -80,6 +80,12 @@
 		
 
 	</dependencies>
+	<exclusions>
+            <exclusion>
+                <artifactId>tools</artifactId>
+                <groupId>com.sun</groupId>
+            </exclusion>
+        </exclusions>
 	<!-- https://mvnrepository.com/artifact/junit/junit -->
 
 </project>
