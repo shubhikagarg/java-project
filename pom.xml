@@ -72,12 +72,12 @@
    		 <scope>system</scope>
 		<systemPath>/usr/lib/jvm/java-11-openjdk-amd64/lib/tools.jar</systemPath>		
                 <type>jar</type>
-		
+		<exclusions>
                 <exclusion>
                     <groupId>com.sun.java</groupId>
                     <artifactId>tools</artifactId>
                 </exclusion>
-		
+		</exclusions>
 	
 </dependency>
 		
