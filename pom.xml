@@ -77,13 +77,14 @@
 	
 </dependency>
 		
- <exclusions>
+
+		</dependencies>
+	 <exclusions>
                 <exclusion>
                     <groupId>com.sun.java</groupId>
                     <artifactId>tools</artifactId>
                 </exclusion>
             </exclusions>
-		</dependencies>
 
 		<!-- https://mvnrepository.com/artifact/net.sourceforge.cobertura/cobertura -->
 <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/cobertura-maven-plugin -->
