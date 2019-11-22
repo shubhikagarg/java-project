@@ -70,13 +70,14 @@
     		<artifactId>tools</artifactId>
     		<version>1.5.0</version>
    		 <scope>system</scope>
-		<systemPath>/usr/lib/jvm/java-1.8-openjdk/lib/tools.jar</systemPath>
+		<systemPath>/usr/lib/jvm/java-11-openjdk-amd64/lib/tools.jar</systemPath>
+		
                 <type>jar</type>
 </dependency>
 
 		<!-- https://mvnrepository.com/artifact/net.sourceforge.cobertura/cobertura -->
 <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/cobertura-maven-plugin -->
-
+		
 
 	</dependencies>
 	<!-- https://mvnrepository.com/artifact/junit/junit -->
