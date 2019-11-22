@@ -76,6 +76,13 @@
 		
 	
 </dependency>
+		
+ <exclusions>
+                <exclusion>
+                    <groupId>com.sun.java</groupId>
+                    <artifactId>tools</artifactId>
+                </exclusion>
+            </exclusions>
 		</dependencies>
 
 		<!-- https://mvnrepository.com/artifact/net.sourceforge.cobertura/cobertura -->
