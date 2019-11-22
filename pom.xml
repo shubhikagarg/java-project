@@ -73,9 +73,10 @@
 		
 		
                 <type>jar</type>
-		</dependencies>
+		
 	
 </dependency>
+		</dependencies>
 
 		<!-- https://mvnrepository.com/artifact/net.sourceforge.cobertura/cobertura -->
 <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/cobertura-maven-plugin -->
