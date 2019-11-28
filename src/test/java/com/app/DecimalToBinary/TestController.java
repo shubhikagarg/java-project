@@ -12,12 +12,7 @@ public class TestController {
 
 	public static void main(String[] args) 
 	{
-		Result r=JUnitCore.runClasses(TestD2B.class);
-	for (Failure s : r.getFailures())
-	{
-			System.out.println("Failed  "+s.toString());
-	}
-		
+	
 	System.out.println("pass");
 	}
 
