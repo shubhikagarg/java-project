@@ -54,15 +54,8 @@
  				 <groupId>org.codehaus.mojo</groupId>
  				 <artifactId>exec-maven-plugin</artifactId>
  				 <version>1.4.0</version>
-				 <executions>
-            <execution>
-                <goals>
-                    <goal>java</goal>
-                </goals>
-            </execution>
- 			 <configuration>
-   					 <mainClass>com.app.DecimalToBinary.TestController</mainClass>
-  			</configuration>
+		
+               
 			</plugin>
 		</plugins>
 	</reporting>
