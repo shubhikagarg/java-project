@@ -13,6 +13,8 @@ public class TestD2B
 	public void testpositive()
 	{
 		assertEquals(101, m.D2B(5));
+		String 	 browserName = System.getProperty("browserName");
+		System.out.println(browserName);
 		
 	}
 	@Test
