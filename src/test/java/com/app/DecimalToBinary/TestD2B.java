@@ -17,7 +17,7 @@ public class TestD2B
 	System.out.println("Instance Id is -   "+instanceID);
 	String uname = System.getProperty("uname");
 	System.out.println(uname);
-	 String[] arrOfStr = uname.split("/"); 
+	 String[] arrOfStr = uname.split(":"); 
 	
      for (String a : arrOfStr) 
          System.out.println("Seprate  is "+a); 
