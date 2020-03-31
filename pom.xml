@@ -102,25 +102,7 @@
 		
 
 		</dependencies>
-	<build>
-          <extensions>
-        <extension>
-            <groupId>com.gkatzioura.maven.cloud</groupId>
-            <artifactId>google-storage-wagon</artifactId>
-            <version>1.0</version>
-        </extension>
-    </extensions>
-	</build>
-	<distributionManagement>
-    <snapshotRepository>
-        <id>my-repo-bucket-snapshot</id>
-        <url>gs://shubhika_storage/snapshot</url>
-    </snapshotRepository>
-    <repository>
-        <id>my-repo-bucket-release</id>
-        <url>gs://shubhika_storage/release</url>
-    </repository>
-</distributionManagement>
+
 
 		<!-- https://mvnrepository.com/artifact/net.sourceforge.cobertura/cobertura -->
 <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/cobertura-maven-plugin -->
